@@ -28,7 +28,7 @@ public class Load {
 	public static void main(String[] args) throws InterruptedException {
 
 		
-		//WebDriver driver = new FirefoxDriver(new FirefoxOptions().setHeadless(true));
+		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver(new ChromeOptions().setHeadless(true));
 		
 		new PageGenerator((RemoteWebDriver)driver).getInstance(LoginPage.class).inputLogin("webinar.test@gmail.com")
