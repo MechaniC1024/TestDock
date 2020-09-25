@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PrestaShop_Firefox" duration-ms="15800" started-at="2020-09-16T23:09:54 MSK" finished-at="2020-09-16T23:10:09 MSK">
+    <groups>
+    </groups>
+    <test name="Check login and logout." duration-ms="15800" started-at="2020-09-16T23:09:54 MSK" finished-at="2020-09-16T23:10:09 MSK">
+      <class name="com.PrestaShop.PrestaShopCookie.NewTest">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.PrestaShop.PrestaShopCookie.NewTest@1fc0053e]" name="beforeSuite" is-config="true" duration-ms="65" started-at="2020-09-16T23:09:54 MSK" finished-at="2020-09-16T23:09:54 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@4265a6be]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.PrestaShop.PrestaShopCookie.NewTest@1fc0053e]" name="beforeMethod" is-config="true" duration-ms="8073" started-at="2020-09-16T23:09:54 MSK" finished-at="2020-09-16T23:10:02 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test1(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.PrestaShop.PrestaShopCookie.NewTest@1fc0053e]" name="test1" duration-ms="6635" started-at="2020-09-16T23:10:02 MSK" finished-at="2020-09-16T23:10:09 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4265a6be]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.PrestaShop.PrestaShopCookie.NewTest@1fc0053e]" name="afterMethod" is-config="true" duration-ms="760" started-at="2020-09-16T23:10:09 MSK" finished-at="2020-09-16T23:10:09 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.PrestaShop.PrestaShopCookie.NewTest -->
+    </test> <!-- Check login and logout. -->
+  </suite> <!-- PrestaShop_Firefox -->
+</testng-results>

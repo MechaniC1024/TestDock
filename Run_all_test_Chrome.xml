@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PrestaShop_Firefox" verbose="1" parallel="tests" thread-count="1">
+
+	<parameter name="browser" value="Chrome" />
+	<!-- <parameter name="threadCountFirefox" value="10" /> -->
+
+	<test name="Check login and logout.">
+		<classes>
+			<class name="com.PrestaShop.PrestaShopCookie.NewTest" />
+		</classes>
+	</test>
+
+</suite>
